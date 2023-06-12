@@ -312,20 +312,22 @@ article p {
     width: 40vw;
   }
 
-  main {
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 2rem;
+  section {
+    margin: 2rem;
   }
 
-  section {
-    flex: 1 1 70%;
+  main {
+    display:grid;
+    grid-template-columns: 1fr 1fr ;
+    align-items: center;
+    justify-items: center;
   }
+  
   
 
   article {
     margin-top: 0; 
+    margin-left: -5rem;
     align-items: flex-start;
   }
 
@@ -339,6 +341,12 @@ article p {
     padding-right: 38rem;
     font-size: 1.1rem;
   }
+
+  p.test{
+    padding-right: 10rem;
+  }
+
+  
   
 }
 
